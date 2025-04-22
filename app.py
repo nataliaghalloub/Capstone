@@ -34,7 +34,7 @@ if page == "Introduction":
     - Educating the community through baking experiences  
     """)
 
-    st.image("sourdough.png", caption="Freshly baked sourdough loaves at Masa Madre", use_column_width=True)
+    st.image("sourdough.png", caption="Freshly baked sourdough loaves at Masa Madre", use_container_width=True)
 
     st.header("🌾 What is Sourdough Bread?")
     st.markdown("""
@@ -54,7 +54,7 @@ if page == "Introduction":
     - Listening closely to our community and innovating constantly  
     """)
 
-    st.image("babka.png", caption="Decadent chocolate babka — one of our most iconic items", use_column_width=True)
+    st.image("babka.png", caption="Decadent chocolate babka — one of our most iconic items", use_container_width=True)
     st.markdown("""
     Our babka reflects the balance of tradition and innovation that defines the Masa Madre approach.
     """)
